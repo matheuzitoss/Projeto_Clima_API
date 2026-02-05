@@ -137,4 +137,71 @@ body{
 
 #wind_icon{
      color: #7c3aed;
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    #container {
+        width: 100%;
+        max-width: 420px;
+        padding: 16px;
+    }
+
+    #search {
+        padding: 6px 10px;
+    }
+
+    #search input {
+        font-size: 14px;
+    }
+
+    #temp {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 16px;
+    }
+
+    #temp_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #temp_value {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    #temp_description {
+        font-size: 14px;
+    }
+
+    #other_infos {
+        grid-template-columns: 1fr; /* vira coluna única */
+        gap: 10px;
+    }
+
+    #other_infos .info {
+        padding: 8px 12px;
+        gap: 12px;
+    }
+
+    #other_infos .info h2 {
+        font-size: 13px;
+    }
+
+    #other_infos .info p {
+        font-size: 14px;
+    }
+
+    #other_infos .info i {
+        font-size: 18px;
+        width: auto;
+    }
 }
